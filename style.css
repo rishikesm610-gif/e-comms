@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    height: 33vw;
+     
+    background-color: brown;
+    background: url(images.jpeg) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: bottom;
+
+}
+#hour{
+    left: 49.5%;
+    width: 1%;
+    height: 17%;
+    top: 34%;
+     opacity: 0.8;
+
+}
+#minute{
+    left: 49.5%;
+    width: 1%;
+    height: 23%;
+    top: 26%;
+    opacity: 0.8;
+     
+    
+     
+
+}
+#second{
+
+    left: 49.5%;
+    width: 1%;
+    height: 33%;
+    top: 18%;
+    opacity: 0.8;
+     
+     
+}
